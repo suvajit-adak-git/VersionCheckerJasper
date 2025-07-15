@@ -24,7 +24,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --noconsole versionChecker.py
+        pyinstaller --onefile --noconsole version.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
